@@ -1,3 +1,55 @@
+
 span {
     font-weight: bold;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+
+.menu{
+    width: fit-content;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(54, 108, 117, 0.502);
+    
+}
+li{
+    float: inherit;
+}
+li>a{
+    display: block;
+    color:white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+li>a:hover {
+    background-color: rgba(145, 230, 241, 0.502)
+}
+
+li:last-child{
+    border-bottom: none;
 }
